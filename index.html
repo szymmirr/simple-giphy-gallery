@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MKCoders GIPHY</title><meta charset="utf-8"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<script>
+		search();
+	</script>
+
+	<div style="width: 400px">
+		<div class="input-group" style="margin-left: 10px; margin-top: 10px">
+			<input type="text" class="form-control" id="search-input">
+			<div class="form-group">
+				<select class="form-control" id="limit-select">
+					<option id="10">10</option>
+					<option id="20">20</option>
+					<option id="100">100</option>
+				</select>
+			</div> 
+			<span class="input-group-btn">
+				<button class="btn btn-default" type="button" id="search-button">Search GIFs</button>
+			</span>
+		</div>
+	</div>
+
+	<div id="gifs"></div>
+  
+</div>
+	
+</body>
+</html>
